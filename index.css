@@ -1,0 +1,20 @@
+body{
+    background: grey;
+    font-family: 'Indie Flower', cursive;
+
+}
+.hero{
+    background-image: url(best-sneaker-websites-DSM-2.jpg.webp);
+    background-size: cover;
+}
+.h-75vh {
+    height: 75vh;
+}
+h3{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+h4{
+   text-align: center;
+}

@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+ img{
+    
+height:auto;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+.crop{
+    text-align: center;
+}
+@media (min-width:768px)and (max-width:2100px){
+    .crop img{
+        width: 500px;
+        height: 500px;
+    }
+    
+  
+}
+@media (min-width:768px)and (max-width:2100px){
+    .valor img{
+        width: 800px;
+        height: 500px;
+     
+    }
+   
+
+}
+
+.bio{
+    background: white;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+
+
+
+

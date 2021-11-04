@@ -1,0 +1,129 @@
+ 
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="checkout.css">
+    
+    <title>Welcome To Kilo Kicks</title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="mx-auto navbar-brand" style="width: 200px;" href="#">Welcome To Kilo Kicks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Homepage <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Kilo Kicks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart
+                <ion-icon name="cart-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html">Checkout 
+            </a>
+        </li>
+             </ul>
+        </div>
+      </nav>
+  </head>
+  <body>
+   <h1 class= "text-center  my-3">Checkout Form</h1>
+  
+        <div class="text-center col-4 bg-light ">
+            <h4 class="d-flex justify-content-between align-items-center">
+                <span>Your Cart </span>
+            </h4>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div>
+                        <h6>Nike Giraffe Dunks (Size 13)</h6>
+                        <span>$400</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div>
+                        <h6>Travis Scott Fragments (Size 11)</h6>
+                        <span>$1500</span>
+                    </div>
+                </li>
+                </ul>
+                <div>
+                    <h6>Total Amount $1,900</h6>
+                </div>
+                </div>
+    
+ 
+        <br>
+
+   <div class="container bg-light">
+    
+       <h2 class="text-center my-3">Personal Information</h2>
+       <form action="success.html" method="GET">
+           
+        <div>
+        <label for="firstName" class ="form">First Name</label><br>
+        <input id="firstName" type="text" class="form" required>
+        </div>
+    
+            <div>
+                <br> <label for="lastName" class ="form">Last Name</label><br>
+                 <input id="lastName" type="text" class="form"  required>
+            </div>
+            <div>
+                <br> <label for="email" class ="form">Email Address</label><br>
+                 <input id="email" type="text" class="form" size="40" required>
+            </div>
+            <div>
+                <br> <label for="address" class ="form">Address</label><br>
+                 <input id="address" type="text" class="form" size="40" required>
+            </div>
+            <div>
+                <br> <label for="city" class ="form">City</label><br>
+                 <input id="city" type="text" class="form" required>
+            </div>
+            <div>
+                <br> <label for="state" class ="form">State</label><br>
+                 <input id="state" type="text" class="form" required>
+            </div>
+            <div>
+                <br> <label for="zip" class ="form">Zip Code</label><br>
+                 <input id="zip" type="text" class="form" required>
+            </div>
+            <h2 class="text-center my-3">Payment Information</h2>
+            <div>
+                <br> <label for="csi" class ="form">CSI Dolphin Card Number</label><br>
+                 <input id="csi" type="text" class="form" required>
+            </div>
+            <br>
+            <br>
+                <button class="btn btn-success btn-purchase" type="submit">PURCHASE </button>
+              
+        
+       </form>
+     <br>
+      </div>
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
